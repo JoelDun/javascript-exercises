@@ -1,11 +1,12 @@
-const repeatString = function() {
-let number = 3
-let string = "hey"
+const repeatString = function(number, string) {
+number = 10
+string = "hey"
+let newString = ""
 
   for (let i = 0; i < number; i++) {
-  string += string + string
-  return string
+  newString += string
   }
+  return newString;
 };
 
 // Do not edit below this line
